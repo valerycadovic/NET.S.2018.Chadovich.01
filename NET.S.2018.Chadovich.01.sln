@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "NET.S.2018.Chadovich.01\Algorithms.csproj", "{35F818FE-2BFE-4AFD-9A6B-33573F3B9E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Tests", "Algorithms.Tests\Algorithms.Tests.csproj", "{43DEBE7A-0E46-41A0-B586-90A22D813A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35F818FE-2BFE-4AFD-9A6B-33573F3B9E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F818FE-2BFE-4AFD-9A6B-33573F3B9E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F818FE-2BFE-4AFD-9A6B-33573F3B9E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F818FE-2BFE-4AFD-9A6B-33573F3B9E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DEBE7A-0E46-41A0-B586-90A22D813A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DEBE7A-0E46-41A0-B586-90A22D813A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DEBE7A-0E46-41A0-B586-90A22D813A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DEBE7A-0E46-41A0-B586-90A22D813A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6E87E4D-F7FE-4E17-A169-FF5DEB4F7687}
+	EndGlobalSection
+EndGlobal

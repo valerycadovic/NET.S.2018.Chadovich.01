@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\NET.S.2018.Chadovich.01\\NET.S.2018.Chadovich.01\\Algorithms.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\NET.S.2018.Chadovich.01\\NET.S.2018.Chadovich.01\\Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\NET.S.2018.Chadovich.01\\NET.S.2018.Chadovich.01\\Algorithms.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\NET.S.2018.Chadovich.01\\NET.S.2018.Chadovich.01\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\NET.S.2018.Chadovich.01\\NET.S.2018.Chadovich.01\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\NET.S.2018.Chadovich.01\\NET.S.2018.Chadovich.01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

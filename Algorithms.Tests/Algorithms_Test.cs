@@ -44,5 +44,34 @@ namespace Algorithms.Tests
             SortingAlgorithms<int>.QuickSort(null, null, 0, 10);
         }
 
+        #region Test Sortings on Big Arrays
+        [TestMethod]
+        public void Can_MergeSort_Work_On_Big_Arrays()
+        {
+            byte[] array = new byte[10000];
+            new Random().NextBytes(array);
+
+            SortingAlgorithms<byte>.MergeSort(array);
+
+            for (int i = 1; i < array.Length; i++)
+            {
+                Assert.IsTrue(array[i - 1] <= array[i]);
+            }
+        }
+
+        [TestMethod]
+        public void Can_QuickSort_Work_On_Big_Arrays()
+        {
+            byte[] array = new byte[10000];
+            new Random().NextBytes(array);
+
+            SortingAlgorithms<byte>.QuickSort(array);
+
+            for (int i = 1; i < array.Length; i++)
+            {
+                Assert.IsTrue(array[i - 1] <= array[i]);
+            }
+        }
+        #endregion
     }
 }
